@@ -1,0 +1,155 @@
+@font-face {
+    src: url("fontes/Lato-Regular.ttf");
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+*{
+    font-family: 'Lato', 'sans-serif';
+}
+::placeholder {
+    font-family: Arial;
+    font-size: 1.2em;
+}
+
+
+/* jssor slider loading skin spin css */
+
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*jssor slider bullet skin 132 css*/
+
+.jssorb132 {
+    position: absolute;
+}
+
+.jssorb132 .i {
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssorb132 .i .b {
+    fill: #fff;
+    fill-opacity: 0.8;
+    stroke: #000;
+    stroke-width: 1600;
+    stroke-miterlimit: 10;
+    stroke-opacity: 0.7;
+}
+
+.jssorb132 .i:hover .b {
+    fill: #000;
+    fill-opacity: .7;
+    stroke: #fff;
+    stroke-width: 2000;
+    stroke-opacity: 0.8;
+}
+
+.jssorb132 .iav .b {
+    fill: #000;
+    stroke: #fff;
+    stroke-width: 2400;
+    fill-opacity: 0.8;
+    stroke-opacity: 1;
+}
+
+.jssorb132 .i.idn {
+    opacity: 0.3;
+}
+
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 10;
+}
+
+.jssora051:hover {
+    opacity: .8;
+}
+
+.jssora051.jssora051dn {
+    opacity: .5;
+}
+
+.jssora051.jssora051ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #dbd9d9;
+    width: 98%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Lato', 'sans-serif';
+}
+
+nav ul li a:hover {
+    background-color: #fdfdfd91;
+    border-radius: 5px;
+}
+
+.logo-petshop{
+
+    width: 90px;
+    height: 90px;
+    margin-right: 750px;
+
+}
+
+.banner01{
+
+    width: 100%;
+}
+
+.banner02{
+    width: 100%;
+}
+
+.banner03{
+
+    width: 100%;
+}
+
+.imagens-abaixo{
+
+    display: flex;
+    width: 240px;
+    height: 240px;
+    margin-top: 40px;
+    gap: 30px;
+    margin-left: 60px;
+}
