@@ -124,9 +124,9 @@ nav ul li a:hover {
 
 .logo-petshop{
 
-    width: 90px;
-    height: 90px;
-    margin-right: 750px;
+    width: 100px;
+    height: 100px;
+    margin-right: 730px;
 
 }
 
@@ -144,12 +144,29 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.imagens-abaixo{
+.servico{
 
     display: flex;
-    width: 240px;
-    height: 240px;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin-left: 70px;
+    text-align: center;
     margin-top: 40px;
-    gap: 30px;
-    margin-left: 60px;
+    
+}
+
+.servico h3{
+
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    
+    
+}
+
+.serviços{
+    
+    display: flex;
+    justify-content: center;
 }
